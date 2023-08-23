@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Aliona Costa",
   "license": "MIT",
+  "engines": {
+    "node": "16.x"
+  }
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
